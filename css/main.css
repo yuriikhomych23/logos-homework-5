@@ -1,0 +1,232 @@
+header nav .navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+header nav .navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+header nav .navigation a:hover{
+    color: blue;
+}
+
+.container {
+    width: 95%;
+    height: 640px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+    margin: auto 40px;
+}
+
+main {
+    width: 1200px;
+    height: 550px;
+    background: #eee;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+aside {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asideCard {
+    width: 100px;
+    height: 400px;
+    background: white; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.icons:hover {
+    color: white;
+    background-color: #05C3F3;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all .4s;
+}
+
+.asideCard img { 
+    width: 35px;
+    height: 35px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.cardContainerFirst {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    right: 23px;
+}
+
+.cardContainer {
+    width: 600px;
+    height: 120px;
+    background: white;
+    border-radius: 20px;
+}
+
+.cardContainerSecond {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardContainerSecondLeft {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.leftContainer {
+    width: 800px;
+    height: 180px;
+    background: white;
+    border-radius: 20px;
+}
+
+.cardContainerSecondRight {
+    width: 400px;
+    height: 400px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    right: 45px;
+}
+
+
+.projectName {
+    color: #B4B2B2;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.language{
+    padding-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.company {
+    color: #B4B2B2;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.academy {
+    padding-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.description {
+    padding-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.descriptionText {
+    padding-left: 20px;
+    color: #B4B2B2;
+}
+
+.teamContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+
+}
+
+.team {
+    font-size: 1.4rem;
+    font-weight: 900;
+    display: flex;
+    align-items: flex-start;
+}
+
+.descriptionTeam {
+    color: #B4B2B2;
+    display: flex;
+    justify-content: center;
+}
+
+.iconTeam {
+    width: 70px;
+    height: 70px;
+    display: block;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.dataContainer {
+    width: 100%;
+    height: 200px;
+}
+
+.data {
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.descriptionData {
+    color: #B4B2B2;
+    padding-left: 20px;
+}
+
+.iconData {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+
+.folder::after {
+    content:"Folder";
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: all .6s;
+}
+
+.folder:hover::after{
+    width: 100%;
+    background-color: red;
+}
